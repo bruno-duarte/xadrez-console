@@ -29,7 +29,7 @@
             return peca(pos) != null;
         }
 
-        public void colacarPeca(Peca p, Posicao pos)
+        public void colocarPeca(Peca p, Posicao pos)
         {
             if (existePeca(pos))
                 throw new Exception("Já existe uma peça nessa posição!");
