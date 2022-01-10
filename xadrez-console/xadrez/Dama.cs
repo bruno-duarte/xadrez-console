@@ -2,8 +2,10 @@
 
 namespace xadrez
 {
+
     class Dama : Peca
     {
+
         public Dama(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
         }
@@ -58,7 +60,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.definirValores(posicao.linha - 1, posicao.coluna);
+                pos.definirValores(pos.linha - 1, pos.coluna);
             }
 
             // abaixo
